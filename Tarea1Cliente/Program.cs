@@ -1,69 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Linq;
-using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using Tarea1Biblioteca;
 
-namespace Tarea1Server
+namespace Tarea1Cliente
 {
     internal class Program
     {
-        static void chatServer(ServerSocket servidor)
+        static void Chat(ClienteSocket clienteSocket)
         {
-            Socket socketCliente = servidor.ObtenerCliente();
-            //Construir el mecanismo para escribir y leer
-            ClienteCom cliente = new ClienteCom(socketCliente);
-            //aqui esta el protocolo de comuncacion, ambos deben conocerlo
-
-            Console.WriteLine("Cliente conectado");
-
             string mensaje = "";
             string respuesta = "";
 
-            while (true)
-            { 
-                mensaje = Console.ReadLine();
-                cliente.Escribir(mensaje);
-                respuesta = cliente.Leer();
-                Console.WriteLine("cliente: {0}", respuesta);
-
-                
-                if (respuesta == "chao"|mensaje == "chao")
+            while(true)
+            {
+                mensaje = clienteSocket.Leer();
+                Console.WriteLine("server: {0}", mensaje);
+                respuesta = Console.ReadLine().Trim();
+                clienteSocket.Escribir(respuesta);
+                if(respuesta == "chao"|mensaje == "chao")
                 {
-                    Console.WriteLine("Cliente desconectado.");
-                    cliente.Desconectar();
+                    clienteSocket.Desconectar();
                     break;
-                }
+                }         
             }
         }
         static void Main(string[] args)
         {
-            int puerto = Convert.ToInt32(ConfigurationManager.AppSettings["puerto"]);
+            Console.WriteLine("Ingrese ip: ");
+            string servidor = Console.ReadLine();
 
-            Console.WriteLine("Inicinado Servidor en puerto {0}", puerto);
-            ServerSocket servidor = new ServerSocket(puerto);
+            Console.WriteLine("Ingrese puerto: ");
+            int puerto = Convert.ToInt32(Console.ReadLine());
 
-            if (servidor.Iniciar())
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Conectado a Servidor {0} en puerto {1}", servidor, puerto);
+            ClienteSocket clienteSocket = new ClienteSocket(servidor, puerto);
+
+            if (clienteSocket.Conectar())
             {
-                //OK puede conectar
-                Console.WriteLine("Servidor Iniciado");
-                while (true)
-                {
-                    Console.WriteLine("Esperando Cliente...");
-
-                    chatServer(servidor);
-                    
-                }
-
-
-
+                Console.WriteLine("Conectado...");
+                Chat(clienteSocket);
             }
             else
             {
-                Console.WriteLine("Errror, el puerto {0} esta en uso", puerto);
+                Console.WriteLine("Error de Comunicacion");
             }
         }
     }

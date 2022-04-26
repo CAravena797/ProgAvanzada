@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea1Cliente", "Tarea1Cliente.csproj", "{FB20213E-6729-4D6A-847B-B9A4904581C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea1Server", "..\Tarea1Cliente\Tarea1Server.csproj", "{8F9F0029-0A8B-4933-ACB7-0E9E6CCE95C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea1Server", "..\Tarea1Server\Tarea1Server.csproj", "{8F9F0029-0A8B-4933-ACB7-0E9E6CCE95C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea1Biblioteca", "..\Tarea1Biblioteca\Tarea1Biblioteca.csproj", "{EF2786D7-46E8-4FEF-829B-11CAAF789522}"
 EndProject
