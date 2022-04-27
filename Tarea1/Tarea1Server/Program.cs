@@ -25,13 +25,18 @@ namespace Tarea1Server
 
             while (true)
             { 
-                mensaje = Console.ReadLine();
-                cliente.Escribir(mensaje);
+                
                 respuesta = cliente.Leer();
                 Console.WriteLine("cliente: {0}", respuesta);
-
-                
-                if (respuesta == "chao"|mensaje == "chao")
+                if (respuesta == "chao")
+                {
+                    Console.WriteLine("Cliente desconectado.");
+                    cliente.Desconectar();
+                    break;
+                }
+                mensaje = Console.ReadLine();
+                cliente.Escribir(mensaje);
+                if (mensaje == "chao")
                 {
                     Console.WriteLine("Cliente desconectado.");
                     cliente.Desconectar();

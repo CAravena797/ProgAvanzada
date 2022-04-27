@@ -16,11 +16,17 @@ namespace Tarea1Cliente
 
             while(true)
             {
-                mensaje = clienteSocket.Leer();
-                Console.WriteLine("server: {0}", mensaje);
+                
                 respuesta = Console.ReadLine().Trim();
                 clienteSocket.Escribir(respuesta);
-                if(respuesta == "chao"|mensaje == "chao")
+                if (respuesta == "chao")
+                {
+                    clienteSocket.Desconectar();
+                    break;
+                }
+                mensaje = clienteSocket.Leer();
+                Console.WriteLine("server: {0}", mensaje);
+                if (mensaje == "chao")
                 {
                     clienteSocket.Desconectar();
                     break;
