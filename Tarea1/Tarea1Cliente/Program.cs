@@ -19,14 +19,14 @@ namespace Tarea1Cliente
                 
                 respuesta = Console.ReadLine().Trim();
                 clienteSocket.Escribir(respuesta);
-                if (respuesta == "chao")
+                if (respuesta == "chao" | respuesta == null)
                 {
                     clienteSocket.Desconectar();
                     break;
                 }
                 mensaje = clienteSocket.Leer();
                 Console.WriteLine("server: {0}", mensaje);
-                if (mensaje == "chao")
+                if (mensaje == "chao" | mensaje == null)
                 {
                     clienteSocket.Desconectar();
                     break;

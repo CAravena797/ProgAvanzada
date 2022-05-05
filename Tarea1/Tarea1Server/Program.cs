@@ -28,7 +28,7 @@ namespace Tarea1Server
                 
                 respuesta = cliente.Leer();
                 Console.WriteLine("cliente: {0}", respuesta);
-                if (respuesta == "chao")
+                if (respuesta == "chao"|respuesta ==null)
                 {
                     Console.WriteLine("Cliente desconectado.");
                     cliente.Desconectar();
@@ -36,7 +36,7 @@ namespace Tarea1Server
                 }
                 mensaje = Console.ReadLine();
                 cliente.Escribir(mensaje);
-                if (mensaje == "chao")
+                if (mensaje == "chao"|mensaje == null)
                 {
                     Console.WriteLine("Cliente desconectado.");
                     cliente.Desconectar();
