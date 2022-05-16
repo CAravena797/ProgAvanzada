@@ -24,13 +24,14 @@ namespace Evaluacion2.Comunicacion
         {
             clienteCom.Escribir("Ingrese medidor: ");
             string medidorId = clienteCom.Leer();
-            clienteCom.Escribir("Ingrese fecha (AAA-MM-DD hh:mm:ss): ");
+            clienteCom.Escribir("Ingrese fecha (AAAA-MM-DD hh:mm:ss): ");
             string fecha = clienteCom.Leer();
             clienteCom.Escribir("Ingrese lectura: ");
             string valor = clienteCom.Leer();
             if (medidorId != null && fecha != null && valor != null)
             {
                 List<Medidor> medidoresValidos = medidoresDAL.ObtenerMedidores();
+                string respuesta="";
                 foreach (Medidor medidor in medidoresValidos)
                 {
                     if (medidor.Id == Convert.ToInt32(medidorId))
@@ -47,19 +48,21 @@ namespace Evaluacion2.Comunicacion
                             {
                                 lecturasDAL.IngresarLectura(lectura);
                             }
-                            clienteCom.Escribir("OK");
+                            respuesta = "OK";
+                            break;
+                            
                         }catch (Exception ex)
                         {
                             clienteCom.Escribir("Error en formato");
+                            respuesta = "Medidor no valido";
+                            break;
                         }
-                        
-                    }
-                    else
+                    } else
                     {
-                        clienteCom.Escribir("Id del medidor no valida");
+                        respuesta ="Medidor no valido";
                     }
                 }
-                
+                clienteCom.Escribir(respuesta);
             }            
             clienteCom.Desconectar();
         }

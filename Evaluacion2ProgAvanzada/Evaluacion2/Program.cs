@@ -40,7 +40,7 @@ namespace Evaluacion2
             Thread t = new Thread(new ThreadStart(hebra.Ejecutar));
             t.Start();
 
-            //while (Menu()) ;
+            while (Menu()) ;
 
         }
 
@@ -53,7 +53,10 @@ namespace Evaluacion2
             }
             foreach (Lectura lectura in lecturas)
             {
-                Console.WriteLine(lectura);
+                Console.WriteLine("id medidor: "+lectura.MedidorId);
+                Console.WriteLine("fecha: "+lectura.Fecha);
+                Console.WriteLine("lectura: "+lectura.Valor);
+                Console.WriteLine("----------");
             }
         }
     }
