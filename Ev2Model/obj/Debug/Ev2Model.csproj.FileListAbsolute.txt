@@ -1,0 +1,6 @@
+C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\bin\Debug\Ev2Model.dll
+C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\bin\Debug\Ev2Model.pdb
+C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.csproj.AssemblyReference.cache
+C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.csproj.CoreCompileInputs.cache
+C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.dll
+C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.pdb
