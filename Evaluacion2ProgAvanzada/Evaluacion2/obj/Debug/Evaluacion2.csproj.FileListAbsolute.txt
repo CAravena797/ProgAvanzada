@@ -11,3 +11,16 @@ C:\Users\FSYCA\source\repos\ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.cspro
 C:\Users\FSYCA\source\repos\ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.csproj.CopyComplete
 C:\Users\FSYCA\source\repos\ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.exe
 C:\Users\FSYCA\source\repos\ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Evaluacion2.exe.config
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Evaluacion2.exe
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Evaluacion2.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Ev2Model.dll
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Tarea1Biblioteca.dll
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Ev2Model.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\bin\Debug\Tarea1Biblioteca.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.csproj.AssemblyReference.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.csproj.SuggestedBindingRedirects.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.csproj.CopyComplete
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.exe
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Evaluacion2\obj\Debug\Evaluacion2.pdb

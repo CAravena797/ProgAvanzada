@@ -4,3 +4,9 @@ C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.csproj.Asse
 C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.csproj.CoreCompileInputs.cache
 C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.dll
 C:\Users\FSYCA\source\repos\ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Ev2Model\bin\Debug\Ev2Model.dll
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Ev2Model\bin\Debug\Ev2Model.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.csproj.AssemblyReference.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.dll
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Ev2Model\obj\Debug\Ev2Model.pdb

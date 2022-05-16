@@ -21,7 +21,7 @@ namespace Evaluacion2Cliente
                 Console.WriteLine("server: {0}", mensaje);
                 respuesta = Console.ReadLine().Trim();
                 clienteSocket.Escribir(respuesta);
-                if (mensaje == "OK" | mensaje == "Id del medidor no valida")
+                if (mensaje == "OK" | mensaje == "Id del medidor no valida" | mensaje == "Error en formato")
                 {
                     clienteSocket.Desconectar();
                     break;

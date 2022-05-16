@@ -1,0 +1,6 @@
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Tarea1Biblioteca\bin\Debug\Tarea1Biblioteca.dll
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Tarea1Biblioteca\bin\Debug\Tarea1Biblioteca.pdb
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Tarea1Biblioteca\obj\Debug\Tarea1Biblioteca.csproj.AssemblyReference.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Tarea1Biblioteca\obj\Debug\Tarea1Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Tarea1Biblioteca\obj\Debug\Tarea1Biblioteca.dll
+C:\Users\laboratorio2\source\repos\ProgAvanzada\Evaluacion2ProgAvanzada\Tarea1Biblioteca\obj\Debug\Tarea1Biblioteca.pdb
