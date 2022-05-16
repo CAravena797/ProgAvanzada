@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{51511DBA-E577-46F7-9F53-1BF09CC1C0C7}</ProjectGuid>
+    <ProjectGuid>{70EBD846-C704-4E43-8340-CB0FEC8F55F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Evaluacion2</RootNamespace>
-    <AssemblyName>Evaluacion2</AssemblyName>
+    <RootNamespace>Evaluacion2Cliente</RootNamespace>
+    <AssemblyName>Evaluacion2Cliente</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comunicacion\HebraCliente.cs" />
-    <Compile Include="Comunicacion\HebraServidor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,11 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ev2Model\Ev2Model.csproj">
-      <Project>{dc190e9a-0325-4aac-a46e-62b7e6a49f65}</Project>
-      <Name>Ev2Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tarea1\Tarea1Biblioteca\Tarea1Biblioteca.csproj">
+    <ProjectReference Include="..\Tarea1Biblioteca\Tarea1Biblioteca.csproj">
       <Project>{ef2786d7-46e8-4fef-829b-11caaf789522}</Project>
       <Name>Tarea1Biblioteca</Name>
     </ProjectReference>
